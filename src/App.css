@@ -63,7 +63,8 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(
   color: white;
 }
 .merah{
-  background-color: red;
+  background-color: rgba(69,80,82,1);
+  color: white;
   padding: 8px;
   border-radius: 10px;
   /* width: 100px; */
@@ -71,16 +72,60 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(
   
 }
 .merah:hover{
-color: white;
+color: rgba(74,52,245,1);
 }
 .oren{
-  background-color: orange;
+  background-color: rgba(69,80,82,1);
+  color: #fff;
   padding: 8px;
   border-radius: 8px;
-  margin-right: 25px;
+  margin-right  : 25px;
   /* margin-left: 30%; */
   width: 63px;
+  /* margin-left: 50px; */
 }
 .oren:hover {
+  color: rgba(74,52,245,1);
+}
+body{
+  background: rgb(0,0,0);
+background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 51%, rgba(69,80,82,1) 100%);
+}
+#judul{
+  color: #fff;
+}
+#form{
+  border: 3px solid white;
+  padding: 40px;
+  border-radius: 15px;
+  margin-bottom: 60px;
+}
+#button{
+  border: none;
+  background-color: #ffffffe9;
+  color: black;
+  width: 150px;
+  height: 50px;
+  margin-left: 500px;
+  margin-top: 15px;
+} 
+#button:hover{
+  background-color: rgba(69,80,82,1);
   color: white;
+}
+  /* #form hr{
+    color: #fff;
+    border: 3px solid #fff;
+  } */
+#kolom{
+  margin-bottom: 40px;
+}
+#kolomm{
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+#gambar{
+  width: 50px;
+  margin-right: 10px;
+  border-radius: 50px;
 }

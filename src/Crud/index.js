@@ -103,7 +103,7 @@ export default class Cruds extends Component {
     })
 
     this.setState({
-      namaPeminjam: bukuYangDipilih[0].namaPeminjam,
+      namaPeminjam: bukuYangDipilih[0].namaPeminjam, 
       nama: bukuYangDipilih[0].nama,
       author: bukuYangDipilih[0].author,
       deskripsi: bukuYangDipilih[0].deskripsi,
@@ -130,8 +130,8 @@ export default class Cruds extends Component {
       <div>
         <NavbarComponent />
         <div className='container mt-4'> 
-        <Tabel bukus={this.state.bukus} editData={this.editData} hapusData={this.hapusData} />
         <Formulir {...this.state} handleChange={this.handleChange} handleSubmit={this.handleSubmit}/>
+        <Tabel bukus={this.state.bukus} editData={this.editData} hapusData={this.hapusData} />
         </div>
       </div>
     )

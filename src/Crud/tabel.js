@@ -4,10 +4,12 @@ import '../App.css'
 
 const Tabel = ({bukus, editData, hapusData}) => {
     return (
-        <Table striped bordered hover>
+    <div className='table-responsive'>
+
+        <Table striped bordered hover >
             <thead>
             <tr>
-                <th>#</th>
+                <th>No</th>
                 <th>Nama Peminjam</th>
                 <th>Nama Buku</th>
                 <th>Author</th>
@@ -40,6 +42,7 @@ const Tabel = ({bukus, editData, hapusData}) => {
                 })}
             </tbody>
         </Table>
+    </div>
     )
 
     }
